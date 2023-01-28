@@ -25,7 +25,7 @@ function Product() {
       </div>
       <div className="right">
         <h2>Titel</h2>
-        <span>$ 199</span>
+        <span className="price">$ 19.39</span>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit
           illo reprehenderit quidem sequi doloremque nam se culpa consectetur,
@@ -47,33 +47,34 @@ function Product() {
             +
           </button>
         </div>
-        <div className="addToCart">
-          <button>
-            <AddShoppingCart />
-            Add To Cart
-          </button>
-          <div className="link">
-            <div className="item">
-              <FavoriteBorder /> ADD TO WISH LIST
-            </div>
-            <div className="item">
-              <Balance /> ADD TO COMPARE
-            </div>
-          </div>
-          <div className="info">
-            <span>Vendor: Polo</span>
-            <span>Product Type: T-Shirt</span>
-            <span>Tag: Tshirt, Woman, Top</span>
-          </div>
-          <hr />
-          <div className="details">
-            <span>DESCRIPTION</span>
-            <hr />
-            <span>ADDITIONAL INFORMATION</span>
-            <hr />
 
-            <span>FAQ</span>
+        <button className="addToCart">
+          <AddShoppingCart />
+          ADD TO CART
+        </button>
+
+        <div className="link">
+          <div className="item">
+            <FavoriteBorder />
+            ADD TO WISH LIST
           </div>
+          <div className="item">
+            <Balance /> ADD TO COMPARE
+          </div>
+        </div>
+        <div className="info">
+          <span>Vendor: Polo</span>
+          <span>Product Type: T-Shirt</span>
+          <span>Tag: Tshirt, Woman, Top</span>
+        </div>
+        <hr />
+        <div className="info">
+          <span>DESCRIPTION</span>
+          <hr />
+          <span>ADDITIONAL INFORMATION</span>
+          <hr />
+
+          <span>FAQ</span>
         </div>
       </div>
     </div>
