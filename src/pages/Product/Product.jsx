@@ -67,7 +67,7 @@ function Product() {
           <span>Product Type: T-Shirt</span>
           <span>Tag: Tshirt, Woman, Top</span>
         </div>
-        <hr />
+
         <div className="info">
           <span>DESCRIPTION</span>
           <hr />
