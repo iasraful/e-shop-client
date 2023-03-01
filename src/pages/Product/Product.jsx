@@ -35,7 +35,9 @@ function Product() {
         <div className="quantity">
           <button
             onClick={() =>
-              setQuantity((prevQuantity) => (prevQuantity === 1 ? 1 : -1))
+              setQuantity((prevQuantity) =>
+                prevQuantity === 1 ? 1 : prevQuantity - 1
+              )
             }
           >
             -
