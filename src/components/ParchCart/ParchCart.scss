@@ -1,0 +1,17 @@
+/** @format */
+
+.parchCart {
+  position: absolute;
+  top: 80;
+  right: 20;
+  z-index: 123;
+  background-color: gray;
+  padding: 30px;
+  .item {
+    img {
+      width: 80px;
+      height: 100px;
+      object-fit: cover;
+    }
+  }
+}
